@@ -29,8 +29,6 @@ class AlevelStudent extends Human {
 
 const he = new AlevelStudent ('Ivan', 19, [5, 3, 5, 1, 4]);
 
-
-
 class Calculator {
     constructor(num = 0){
         this.num = num;
@@ -60,6 +58,7 @@ class Calculator {
         return add().reset().sub().mul().add().pow().sqrt()
     }
 }
+
 
 const num = new Calculator(num)
 
