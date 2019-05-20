@@ -10,7 +10,6 @@ function makeImages(){
     return console.log(link.parentElement);
 }
 
-
 //task 3
 
 function initBall(){
