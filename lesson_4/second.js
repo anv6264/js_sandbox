@@ -45,7 +45,6 @@ function print2(n) {
         
         document.write("<br/>");  
     } 
-    
     n--; 
     
     for (i = n; i >= 1; i--) { 
