@@ -30,9 +30,7 @@ class AlevelStudent extends Human {
 <<<<<<< HEAD
 const he = new AlevelStudent ('Ivan', 19, [5, 7, 3, 5, 1, 4]);
 =======
-	B
-
-new AlevelStudent ('Ivan', 19, [5, 3, 5, 1, 4]);
+const he = new AlevelStudent ('Ivan', 19, [5, 3, 5, 1, 4]);
 >>>>>>> master
 
 class Calculator {
@@ -71,3 +69,7 @@ class Calculator {
 
 
 const num = new Calculator(num)
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
