@@ -27,7 +27,13 @@ class AlevelStudent extends Human {
     }
 }
 
+<<<<<<< HEAD
 const he = new AlevelStudent ('Ivan', 19, [5, 7, 3, 5, 1, 4]);
+=======
+	B
+
+new AlevelStudent ('Ivan', 19, [5, 3, 5, 1, 4]);
+>>>>>>> master
 
 class Calculator {
     constructor(num = 0){
@@ -55,7 +61,11 @@ class Calculator {
         Math.sqrt();
     }
     getResult(){
+<<<<<<< HEAD
         return add().reset().sub().mul().add().pow().sqrt();
+=======
+        return add().reset().sub().mul().add().pow().sqrt()
+>>>>>>> master
     }
 }
 
