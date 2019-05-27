@@ -37,7 +37,7 @@ var arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 var prev = 0;
 var current = 0;
 
-function maxSum(arr){
+function func4(arr){
     for (i=0; i < arr.length; i+=0){
     prev = prev + a[i];
     if (prev < 0){
