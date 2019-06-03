@@ -7,9 +7,39 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text">
-    <div></div>
-    <link rel="stylesheet" href="./styles.sass">
+    <style type="text/css">
+        button{
+            margin: 25px;
+            padding: 12px;
+            width: 150px;
+            background-color: #4cafaa;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            color: beige;
+            border: 0;
+        }
+        p{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:  #4cafaa;
+            font-style: italic;
+            font-size: 20px;
+        }
+        form{
+            margin: 25px;
+        }
+        input{
+            border-color: black;
+            width: 200px;
+            height: 25px;
+        }
+    </style>
+    <button type="button" value="Generate email" onclick="openPopup()">Generate email</button></br>
+    <button type="button" value="Close" onclick="closePopup()">Close</button></br>
+    <form>
+        <p>Validate email</p>
+        <input type="text" placeholder="Type your email here" onsubmit="validate()"/>
+    </form>
+    
     <script src="index.js"></script>
 </body>
 </html>

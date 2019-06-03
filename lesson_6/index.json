@@ -1,7 +1,0 @@
-{
-    "name": "value",
-    "array": ["elem", 1, {}, [], false, true],
-    "has 2 methods": "stringify - to turn info into a string & parse - to do vice versa things"
-}
-
- 

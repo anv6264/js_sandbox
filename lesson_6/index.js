@@ -1,9 +1,29 @@
-//const camelCase = require('camelcase');
+const randomEmail = require('random-email');
 
-import camelCase from 'camelcase';
+let popup;
+function openPopup(){
+    popup = window.open('randomEmail', 'My Window', 'height=300, width=300, top=250, left=500');
+}
+function closePopup(){
+    popup.close();
+}
 
-console.log(camelCase('foo-bar'));
 
-document.querySelector('div');
+const email = document.getElementsByTagName('input');
 
-div.addEventListener('change', )
+const validator = require("email-validator");
+ 
+validator.validate("test@email.com"); 
+
+const validate = (validator) => {
+
+        if (email.validator == true){
+            input.style.border =  'green';
+        }else if (email.validator == null){
+            input.style.border =  'grey';
+        }else{
+            input.style.border =  'red';
+        }
+  
+    return validator.validate(email);
+}
