@@ -1,0 +1,23 @@
+{
+  "name": "lesson_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./index.html", 
+    "build": "rm -rf dist && parcel build ./index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[B\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "parcel": "^1.12.3"
+  }
+}
