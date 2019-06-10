@@ -34,6 +34,7 @@ class MiniSlider {
     }
 
     next() {
+        
         for (let i = 0; i < this.children.length; i += 1) {
             this.children[i].style.display = 'none';
         }
@@ -50,6 +51,7 @@ class MiniSlider {
     }
 
     prev() {
+
         for (let i = 0; i < this.children.length; i += 1) {
             this.children[i].style.display = 'none';
         }
@@ -66,6 +68,7 @@ class MiniSlider {
     }
 
     destroy() {
+
         for (let i = 0; i < this.children.length; i += 1) {
             this.children[i].style.display = 'block';
         }
