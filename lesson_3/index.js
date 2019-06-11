@@ -63,3 +63,4 @@ class Calculator {
 }
 
 let num = new Calculator(num)
+
