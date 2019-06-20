@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin-top: 50px;
+            background-color: blanchedalmond;
+        }
+        div{
+            display: flex;
+            position: relative;
+            width: 100%;
+            margin: 30px;
+            
+        }
+        .currency {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+            margin: 20px 20px 20px 50px;
+            display: flex;
+            position: relative;
+        }
+        .box{
+            display: flex;
+            position: relative;
+            margin: 20px;
+            width: 200px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1em;
+        }
+        .amount{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+            display: flex;
+            position: relative;
+            margin: 20px 20px 20px 155px;
+        }
+        .rate{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+            font-style:italic;
+            color:#4B0082;
+            display: flex;
+            position: relative;
+            margin: 100px 0px 20px 550px;
+        }
+     
+    </style>
+</head>
+<body>
+    <div>
+        <p class="currency">Currency I have:</p>
+    <select class="box">
+        <option value="GBP">GBP</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+    </select>
+    
+        <p class="currency">Currency I want:</p>
+    <select class="box">
+        <option value="GBP">GBP</option>
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+
+    <div>
+        <p class="amount">Amount:</p>
+        <input class="box" type="number" min="1"></input>
+        <p class="amount">U'll have:</p>
+        <input class="box" type="text" disabled="disabled"></input>
+    </div>
+
+    <div class="rate">Rate period</div>
+    
+    <div>
+        <p class="amount">From</p>
+        <input class="box" type="date"></input>
+        <p class="amount">To</p>
+        <input class="box" type="date"></input>
+    </div>
+
+    <div>
+    <p class="amount">Here u r:</p>
+    <input class="box" type="text"></input>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
