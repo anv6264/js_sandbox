@@ -4,16 +4,16 @@ const input = document.getElementById("input");
 
 const CHECK = "check-circle";
 const UNCHECK = "circle-thin";
-const LINE_THROUGH = "lineThrough"
+const LINE_THROUGH = "lineThrough";
 
 function addToDo(toDo, id, done, trash){
     if (trash){ return;}
     const DONE = done ? CHECK : UNCHECK;
     const LINE = done ? LINE_THROUGH : "";
-    const text =`<li class="item" type="circle">
-                    <i class = "${DONE}" job="complete id="${id}" ></i>
+    const text =`<li class="item" type="circle" onclick="completeToDo(${id})" id="${id}">
+                    <i class = "${DONE}" ></i>
                     <p class = "text ${LINE}"> ${toDo} </p>
-                    <i class = "trash" job = "delete" id="${id}"></i>
+                    <i class = "trash"></i>
                 </li>`
     const position = "beforeend";
     list.insertAdjacentHTML(position, text);
@@ -33,7 +33,7 @@ document.addEventListener("keyup", function(event){
             });
             id ++;
         }
-        input.value = " ";
+        input.value = "";
     }
 });
 
@@ -46,17 +46,19 @@ function removeToDo(element){
     LIST[element.id].trash = true;
 };
 
-const b = document.getElementsByClassName("text");
 
-function completeToDo(){
-    var a = document.getElementsByTagName('p').classList;
-    if (a.classList == "text") {
-        a.classList.add("complete");
-    }else if(a.classList == "complete")
-        a.classList.add("text");
+function completeToDo(id){
+    
+    var a = document.getElementById(id);
+    
+    if (a.className == "item") {
+        console.log(a[0])
+        a.classList.remove("text");
+    }else if(a[0].classList == "complete"){
+        a.classList.toggle("text");
+    }
 }
 
-b.onclick = function completeToDo(){};
 
 
 
