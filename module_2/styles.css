@@ -1,0 +1,66 @@
+/*@font-face{
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+*/
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    /*font-family: 'Open Sans' sans-serif;
+    font-style: normal;*/
+}
+
+#root{
+    margin-top: 30px;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    align-content: center;
+    padding-left: 10%;
+}
+
+.welcome{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+    margin-left: 80px;
+}
+
+span{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border-style: none;
+}
+
+button{
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    border: none;
+    width: 70%;
+    margin: 10% auto;
+    height: 48px;
+    color: white;
+
+}
+
+.info{
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    height: 20px;
+}
+
+.info2:valid{
+    border-bottom-color: rgb(103, 221, 137);
+}
+
+.info2:invalid{
+    border-bottom-color: red;
+}
+
