@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+
+#root{
+    margin: auto;
+    width: 25%;
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    align-content: center;
+    /*padding: 2%;*/
+}
+
+.welcome{
+    color: #384F7D;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+}
+
+span{
+    color: rgba(68, 89, 132, 0.3);
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border-style: none;
+    margin-left: 10%;
+    width: 45%;
+}
+
+button{
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    margin: 10% 10%;
+    height: 48px;
+    color: white;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.info{
+    box-shadow: 0px 3px 5px 3px #D3D3D3;
+    margin: 0px 10% 10px;
+    opacity: 0.2;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    width:80%;
+    font-weight: bold;
+}
+
+.info2:valid{
+    border-bottom-color: rgb(103, 221, 137);
+}
+
+.info2:invalid{
+    border-bottom-color: red;
+}
+
+input.info.info3{
+    width: 35%;
+}
+
+p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(56, 79, 125, 0.8);
+}
+
+.top{
+    width: 100%;
+}
+
+.blue{
+    width: 70%;
+}
+
+.blueS{
+    top: 43%;
+    left: 57%;
+    position: absolute;
+    border-radius: 50%;
+    width: 4%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    transform: rotate(-15.82deg);
+}
+
+.orange{
+    width: 40%;
+    margin: -30% 30% 10%;
+}
+
+.bulb{
+    position: absolute;
+    top: 8.5%;
+    left: 47.5%;
+    width: 5%;
+}
+
+.name{
+    width: 100%;
+}
